@@ -11,3 +11,4 @@ Googleov BERT:
 TODO
 
 
+TODO: Glove, fuzzytext, CLIP?
