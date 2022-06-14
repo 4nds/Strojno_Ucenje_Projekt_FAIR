@@ -4,4 +4,4 @@ Googleov word2vec:
 
 Googleov BERT:
 
-~82% uspjesnosti.
+~82% uspjesnosti. (2000/50000 testova)
