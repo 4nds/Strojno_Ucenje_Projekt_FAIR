@@ -4,7 +4,7 @@ https://towardsdatascience.com/fine-tuning-pre-trained-transformer-models-for-se
 BERT entailment proveden je s ciljem bolje klasifikacije agree/disagree/discuss.  
 Podatci iz dataseta s odnosom "unrelated" su zanemareni.  
 Provedeno je 10 epoha treniranja.  
-Rezultati prikazani kao omjer broja točne i broja netočne klasifikacije.  
+Rezultati prikazani kao omjer broja točne i broja netočne klasifikacije na setu podataka za bodovanje u natjecanju.  
 
 
 Epoch 1: train_loss: 0.4410 train_acc: 0.8237 | val_loss: 0.2086 val_acc: 0.9294 00:18:12.73
