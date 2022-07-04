@@ -26,9 +26,9 @@ Epoch 8: train_loss: 0.0189 train_acc: 0.9949 | val_loss: 0.1431 val_acc: 0.9743
 Epoch 9: train_loss: 0.0121 train_acc: 0.9965 | val_loss: 0.1328 val_acc: 0.9777 00:31:41.29
 
 EPOCH = 10 (točno klasificirani : netočno klasificirani)  
-Agree: 1014 : 889  ~ 53.28%  
-Discuss: 3770 : 694  ~ 84.45%
-Disagree: 271 : 426  ~ 38.88%
+Agree: 1014 : 889  ~ 53.28%   
+Discuss: 3770 : 694  ~ 84.45%  
+Disagree: 271 : 426  ~ 38.88%  
 Epoch 10: train_loss: 0.0104 train_acc: 0.9968 | val_loss: 0.1364 val_acc: 0.9784  
 00:19:58.83
 
