@@ -2,7 +2,6 @@ import re                       # 2.2.1
 import sklearn                  # 1.1.1
 import gensim                   # 4.2.0
 import nltk                     # 3.2.2
-#from sklearn import preprocessing
 
 class WordTokenizer:
 
