@@ -1,7 +1,11 @@
 import warnings
 import numpy as np              # 1.22.0
 import pandas as pd             # 1.3.4
-#from pandas.core.common import SettingWithCopyWarning
+
+try:
+    from IPython.display import display
+except:
+    pass
 
 warnings.simplefilter(action="ignore", \
     category=pd.core.common.SettingWithCopyWarning)
@@ -80,3 +84,18 @@ class Evaluator:
             round(100 * (sum(score_matrix[stance].iloc[row] for row, stance \
                 in enumerate(stances_types)) / stances.shape[0]), 2)
         return score_matrix
+
+    def print(self, actual_stances, predicted_stance, decimals=4):
+        print('Results:')
+        print('    score:', self.getScore(actual_stances, predicted_stance))
+        print('    score percentage: {:.{precision}f}'. \
+            format(100 * self.getScorePercentage(actual_stances, predicted_stance), \
+                precision=decimals))
+        return
+
+
+    def show(self, actual_stances, predicted_stance, decimals=4):        
+        display(self.getScoreMatrix(actual_stances, predicted_stance))
+        self.print(actual_stances, predicted_stance, decimals)
+        return
+        
