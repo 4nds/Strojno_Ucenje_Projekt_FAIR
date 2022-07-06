@@ -10,8 +10,8 @@ Pokretanje koda:
 
 -   `models.ipynb` - klasifikacija koristeći stabla odlučivanja
 
--   `BERT_entailmnet/entailment.ipynb` - treniranje BERT model
+-   `BERT_entailmnet/entailment.ipynb` - treniranje BERT modela
 
--   `reproduction/testing_combined.ipynb` - restiranje BERT model
+-   `reproduction/testing_combined.ipynb` - testiranje BERT modela
 
 Napomena: U datotekama reproduction/reproduction.ipynb, models.ipynb, reproduction/testing_combined.ipynb potrebno je postaviti `FNC_DATA_PATH` na putanju direktorija u kojem se nalazi kloniran repozotorij skupova podataka za FNC (https://github.com/FakeNewsChallenge/fnc-1)
