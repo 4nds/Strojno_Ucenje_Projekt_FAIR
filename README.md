@@ -14,4 +14,4 @@ Pokretanje koda:
 
 -   `reproduction/testing_combined.ipynb` - restiranje BERT model
 
-Napomena: U datotekama reproduction/reproduction.ipynb, models.ipynb, reproduction/testing_combined.ipynb potrebno je postaviti FNC_DATA_PATH na putanju direktorija u kojem se nalazi kloniran repozotorij skupova podataka za FNC (https://github.com/FakeNewsChallenge/fnc-1)
+Napomena: U datotekama reproduction/reproduction.ipynb, models.ipynb, reproduction/testing_combined.ipynb potrebno je postaviti `FNC_DATA_PATH` na putanju direktorija u kojem se nalazi kloniran repozotorij skupova podataka za FNC (https://github.com/FakeNewsChallenge/fnc-1)
